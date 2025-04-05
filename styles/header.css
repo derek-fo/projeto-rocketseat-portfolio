@@ -1,0 +1,45 @@
+section#info {
+    background-image: url('/assets/Background_Intro.png');
+    background-size: cover;
+}
+
+section img {
+    margin: auto;
+    display: block;
+}
+
+header {
+    border: solid 1px white;
+    padding: 10px;
+    margin-inline: 163px;
+
+    & p {
+        text-align: center;
+    }
+}
+
+div#intro {
+    margin-inline: 163px;
+    border: solid 1px white
+}
+
+div#stacks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+div.stack {
+    color: var(--base-gray500);
+    background-color: var(--base-gray300);
+    display: flex;
+    border-radius: 25px;
+    width: 114px;
+    height: 40px;
+
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+
+}
