@@ -1,0 +1,33 @@
+section#services{
+    padding-block: 88px 120px;
+    background-color: var(--gray100);
+}
+
+.services-header{
+    margin-bottom: 56px;
+    justify-items: center;;
+}
+
+#services-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.services-card{
+    border: 2px solid var(--gray200);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.serv{
+    width: 48px;
+}
+
+.h3-serv{
+    margin-block: 20px 8px;
+}
+

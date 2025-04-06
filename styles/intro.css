@@ -1,15 +1,22 @@
-section#info {
+section.info {
     background-image: url('/assets/Background_Intro.png');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-section img {
+#info {
+    padding-top: 120px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+header img {
     margin: auto;
     display: block;
 }
 
 header {
-    border: solid 1px white;
     padding: 10px;
     margin-inline: 163px;
 
@@ -30,9 +37,9 @@ div#stacks {
 
 }
 
-div.stack {
-    color: var(--base-gray500);
-    background-color: var(--base-gray300);
+.stack {
+    color: var(--gray500);
+    background-color: var(--gray300);
     display: flex;
     border-radius: 25px;
     width: 114px;

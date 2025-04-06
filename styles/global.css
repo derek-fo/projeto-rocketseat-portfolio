@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-
+    margin: 0;
     padding: 0;
     font-family: var(--font-family-text);
 }
@@ -9,58 +9,75 @@
     --background-color: white;
     --border-primary: #D9D9D9;
 
-    --font-family-title: 'Asap', sans-serif;
-    --titlet-lg: bold 56px 120% var(--font-family-title);
-    --title-md: bold 24px 120% var(--font-family-title);
-    --title-sm: bold 16px 120% var(--font-family-title);
+    --asap: 'Asap', sans-serif;
+    --title-lg: 700 56px/120% var(--asap);
+    --title-md: 700 24px/120% var(--asap);
+    --title-sm: 700 16px/120% var(--asap);
+    --title-code: 700 26px/120% var(--asap);
 
-    --font-family-text: 'Maven Pro', sans-serif;
-    --text-md: 16px 140% var(--font-family-text);
-    --text-sm: 14px 140% var(--font-family-text);
+    --maven: 'Maven Pro', sans-serif;
+    --text-md: 400 16px/140% var(--maven);
+    --text-sm: 400 14px/140% var(--maven);
 
-    --font-family-subtitle: 'Inconsolata', sans-serif;
-    --text-subtitle: 20px 120% var(--font-family-subtitle);
+    --inconsolata: 'Inconsolata', sans-serif;
+    --subtitle: 400 20px/120% var(--inconsolata);
 
-    --base-gray100: #0d0e11;
-    --base-gray200: #16181d;
-    --base-gray300: #292c34;
-    --base-gray400: #878ea1;
-    --base-gray500: #c0c4ce;
-    --base-gray600: #e2e4e9;
+    --gray100: #0d0e11;
+    --gray200: #16181d;
+    --gray300: #292c34;
+    --gray400: #878ea1;
+    --gray500: #c0c4ce;
+    --gray600: #e2e4e9;
 
-    --bg-red: #E3646E;
-    --bg-blue: #3996DB;
-    --bg-green: #82BC4F;
-    --bg-purple: #BB72E9;
-    --bg-yellow: #EABD5F;
+    --red: #E3646E;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --purple: #BB72E9;
+    --yellow: #EABD5F;
 }
 
-.subtitle {
-    border: solid 1px black;
-    font: var(--text-subtitle);
-    color: var(--bg-red);
-    margin-bottom: 8px;
-    text-align: center;
+.container{
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
 }
 
-h2 {
+.subtitle{
+    font: var(--subtitle);
+    color: var(--gray400);
+}
+
+h1{
+    font: var(--title-lg);
+    color: var(--gray600);
+}
+
+h3{
     font: var(--title-md);
-    color: var(--base-gray500);
-    margin-bottom: 8px;
-    text-align: center;
+    color: var(--gray600);
 }
 
-h3 {
+h4{
     font: var(--title-sm);
-    color: var(--base-gray600);
+    color: var(--gray600);
 }
 
-.titlesm {
-    color: var(--base-gray500);
+.textsm{
     font: var(--text-sm);
+    color: var(--gray400);
 }
 
-.textsm {
-    color: var(--base-gray500);
-    font: var(--text-sm);
+.textmd{
+    font: var(--text-md);
+    color: var(--gray500);
+}
+
+.txtred{
+    color: var(--red);
+    font: var(--subtitle);
+}
+
+.txtpurple{
+    color: var(--purple);
+    font: var(--subtitle);
 }
