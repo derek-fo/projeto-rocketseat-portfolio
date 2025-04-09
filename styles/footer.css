@@ -17,15 +17,23 @@ footer >header > h3{
     margin: 0 auto;
     grid-template-columns: 1fr;
     row-gap: 16px;
+    
 }
 
 .social-card{
     background-color: var(--gray300);
     border-radius: 8px;
     padding: 20px;
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+
+    width: 400px;
+    height: 68px;
+    
+
+
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     gap: 12px;
 }
 
@@ -40,7 +48,9 @@ footer >header > h3{
     height: 28px;
 }
 
-.arrow{
+#arrow{
     width: 20px;
     height: 20px;
+    justify-self: end;
+    align-self: center;
 }

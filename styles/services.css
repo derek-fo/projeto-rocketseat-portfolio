@@ -18,13 +18,10 @@ section#services{
 }
 
 .services-card{
-    border: 2px solid var(--gray200);
+
+    border: 2px solid var(--gray300);
     border-radius: 12px;
     padding: 20px;
-}
-
-.serv{
-    width: 48px;
 }
 
 .h3-serv{

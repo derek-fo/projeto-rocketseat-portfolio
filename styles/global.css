@@ -57,6 +57,10 @@ h3{
     color: var(--gray600);
 }
 
+h3.subtitle{
+    margin-bottom: 8px;
+}
+
 h4{
     font: var(--title-sm);
     color: var(--gray600);
