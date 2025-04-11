@@ -3,6 +3,10 @@ main {
     background-color: var(--gray200);
 }
 
+header h3{
+    justify-items: center;
+}
+
 #projects-header {
     margin-bottom: 56px;
     justify-items: center;
